@@ -3,7 +3,7 @@
   <title>PHP Test</title>
  </head>
  <body>
- <?php echo '<p>Hello World</p>';
+ <?php echo '<p><h1>Hello World</h1></p>';
 // client-ip.php : Demo script by nixCraft <www.cyberciti.biz>
 // get an IP address
 $ip = $_SERVER['REMOTE_ADDR'];
