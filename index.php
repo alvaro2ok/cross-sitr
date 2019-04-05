@@ -3,9 +3,16 @@
   <title>PHP Test</title>
  </head>
  <body>
- <?php echo '<p>Hello World</p>';  
- $my_current_ip=exec("ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'");
- echo $my_current_ip;
- ?>
+ <?php echo '<p>Hello World</p>';
+// client-ip.php : Demo script by nixCraft <www.cyberciti.biz>
+// get an IP address
+$ip = $_SERVER['REMOTE_ADDR'];
+// display it back
+echo "<h2>Client IP Demo</h2>";
+echo "Your IP address : " . $ip;
+echo "<br>Your hostname : ". gethostbyaddr($ip) ;
+?>
+
+ 
  </body>
 </html>
