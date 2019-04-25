@@ -13,7 +13,8 @@ $ip = $_SERVER['REMOTE_ADDR'];
 //echo "<br>Your hostname : ". gethostbyaddr($ip) ;
 //echo '<img src="images/greenrose.jpg" />';
 echo ' <table border=3> <tr><td><h1>its image </h1><img src="images/bluerose.jpg" alt="loading" /><td><tr></table>';
-echo ' <table border=3> <tr><td><h1>its image </h1><img src="images2/greenrose.jpg" alt="loading" /><td><tr></table>';
+//echo ' <table border=3> <tr><td><h1>its image </h1><img src="images2/greenrose.jpg" alt="loading" /><td><tr></table>';
+//echo ' <table border=3> <tr><td><h1>its image </h1><img src="images3/greenrose.jpg" alt="loading" /><td><tr></table>';
 ?>
  </body>
 </html>
